@@ -1,0 +1,132 @@
+body{
+    width: 100%;
+}
+a:hover{
+    background: #3c4248;
+}
+.now{
+    background: #3c4248;
+}
+.left{
+    float: left;
+    width: 12rem;
+    position: fixed;
+    top: 3.5rem;
+    bottom: 0;
+    background: #283643;
+}
+.left ul{
+    padding-top: 1rem;
+}
+.left ul li{
+    color: #fff;
+    height: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 3rem;
+}
+.left ul li:hover{
+    background-color: #3c4248;
+}
+.left ul li a{
+    color: #fff;
+}
+.tag{
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background: yellow;
+    border-radius:100%;
+    font-size: 12px;
+    color: #000;
+}
+.right{
+    float: right;
+    width: 100%;
+    position: fixed;
+    top: 3.5rem;
+    bottom: 0;
+    margin-left: 12rem;
+}
+.container-fluid .box div{
+    float: left;
+    width: 385px;
+    height: 164px;
+    border-radius: 5px;
+}
+.container-fluid div p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container-fluid div h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.card2{
+    margin-left: 30px;
+}
+.card3{
+    margin-left: 30px;
+}
+
+.right .container {
+    width: 100%;
+    position: fixed;
+    left: 12rem;
+    right: 0;
+    margin-left: 0;
+}
+.col p{
+    line-height: 2rem;
+    color: #6c757d;
+    border-bottom: 2px solid #e9ecef;
+    margin-bottom: 10px;
+}
+td{
+    color:#6c757d;
+}
+
+@charset "utf-8";
+*{
+    margin:0; padding:0;
+    }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin: 0; padding: 0;  font-family: "微软雅黑"; }
+fieldset, img { border: 0; }
+ul, ol, li { list-style: none; font-family:'Microsoft YaHei'; }
+
+/* remember to define focus styles! */
+:focus { outline: 0; }
+address, caption, cite, code, dfn, em, strong, th, var, optgroup { font-style: normal; font-weight: normal; }
+abbr, acronym { border: 0; font-variant: normal; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; background-color: #fff; border: none;}
+code, kbd, samp, tt { font-size: 100%; }
+a{text-decoration:none;color: #000;}
+a:hover{
+    text-decoration: none;
+}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea{ *font-size: 100%;}
+ol, ul { list-style: none; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table,tr,td { border-collapse: collapse; border-spacing: 0; margin:0;padding:0;}
+caption, th { text-align: left; }
+sup, sub { font-size: 100%; vertical-align: baseline; }
+
+/* remember to highlight anchors and inserts somehow! */
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+/**Common Css**/
+.fr { float: right; *display: inline;}
+.fl { float: left; *display: inline;}
+/*文本超出显示省略号*/
+.ehn, .otw, .tow { text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+/*清除浮动*/
+.clearfix { clear: both; *zoom:1;}
+.clearfix:after { display: block; clear: both; content: "\0020"; visibility: hidden; height: 0; }
