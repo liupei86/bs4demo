@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数据面板</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="containr">
+        <nav class="navbar navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">管理系统</a>
+            <div class="dropdown">
+                <button class="btn btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  用户操作
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">个人中心</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">退出</a>
+                </div>
+              </div>
+        </nav>
+        <!--导航结束-->
+        <div class="left">
+          <ul class="nav flex-column">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="user.html">用户中心</a></li>
+            <li><a href="search.html">数据查询</a></li  class="now">
+            <li  class="now"><a href="data.html">数据面板</a></li  class="now">
+            <li><a href="tip.html" style="float: left;">提醒事项</a><p class="tag">4</p></li>
+          </ul>
+        </div>
+        <div class="right">
+          <nav aria-label= "breadcrumb" style="width: 100%;">
+            <ol class= "breadcrumb" >
+              <li class= "breadcrumb-item active" aria-current= "page" >主页</li>
+              <li class="breadcrumb-item active" aria-current="page">数据面板</li>
+            </ol>
+          </nav>
+          <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>最新的10个用户</p>
+                  <table class="table table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th>用户ID</th>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th>2</td>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th>3</td>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+            </table>
+                </div>
+                <div class="col">
+                    <p>最活跃的10个用户</p>
+                  <table class="table table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th>用户ID</th>
+                    <th>First</th>
+                    <th>Last</th">
+                    <th>Handle</th">
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th>2</td>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th>3</td>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+            </table>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example" style="float: right;">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav>
+          </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>boostrap4作业</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="containr">
+        <nav class="navbar navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">管理系统</a>
+            <div class="dropdown">
+                <button class="btn btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  用户操作
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">个人中心</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">退出</a>
+                </div>
+              </div>
+        </nav>
+        <!--导航结束-->
+        <div class="left">
+          <ul class="nav flex-column">
+            <li class="now"><a href="index.html">首页</a></li>
+            <li><a href="user.html">用户中心</a></li>
+            <li><a href="search.html">数据查询</a></li>
+            <li><a href="data.html">数据面板</a></li>
+            <li><a href="tip.html" style="float: left;">提醒事项</a><p class="tag">4</p></li>
+          </ul>
+        </div>
+        <div class="right">
+          <nav aria-label= "breadcrumb" style="width: 100%;">
+            <ol class= "breadcrumb" >
+              <li class= "breadcrumb-item active" aria-current= "page" >首页</li>
+            </ol>
+          </nav>
+          <div class="container-fluid">
+            <div class="box">
+            <div class="card1 bg-success">
+              <p class="text-light">当前用户总数</p>
+              <h2 class="display-3 text-light">120,123</h2>
+            </div>
+            <div class="card2 bg-primary">
+              <p class="text-light">每日平均活跃人数</p class="text-light">
+              <h2 class="display-3 text-light">1,123</h2 class="display-3">
+            </div>
+            <div class="card3 bg-warning">
+              <p class="text-light">每日平均访问次数</p class="text-light">
+              <h2 class="display-3 text-light">3,123</h2 class="display-3">
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
